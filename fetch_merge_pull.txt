@@ -1,0 +1,22 @@
+$ git fetch remotename
+# Fetches updates made to a remote repository
+
+$ git merge remotename/branchname
+# Merges updates made online with your local work
+
+$ git pull remotename branchname
+# Grabs online updates and merges them with your local work
+
+https://help.github.com/en/github/using-git/getting-changes-from-a-remote-repository
+
+nhorner@NHORNER-US MINGW64 ~/Desktop/Python_Stuff (master)
+$ git fetch origin
+From https://github.com/noahhorner/pyrepo
+   ebd4b38..a49fe61  master     -> origin/master
+
+nhorner@NHORNER-US MINGW64 ~/Desktop/Python_Stuff (master)
+$ git merge origin/master
+Updating ebd4b38..a49fe61
+Fast-forward
+ git_to_github.md | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
